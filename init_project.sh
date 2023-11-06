@@ -35,6 +35,7 @@ python()
     else
 	echo "No requirement.txt file found"
     fi
+    sudo mv "$directory" /usr/local/bin
 
 #bash project
 bash()
