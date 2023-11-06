@@ -1,5 +1,13 @@
-Setup instructions
-  To run a bash script,
-- You need to know if the permission has been granted to the script for execution. This is done using the command ls -l. If there is no 'x' on the user's part, then he has no permission to execute the file.
-To grant permission to the user for execution, he will simply used the command 'chmod u+x file_name'.
-- After being sure of having the permission, he can run the script using "./script_name" or "bash script_name"
+# Project Readme
+#Running scripts with execution permission
+1- Open the terminal
+2- Navigate to the project directory using the command "cd /path/to/your_project"
+3- Check the execution permissions using the command "ls -l"
+4- If the script doesn't have permission, grant him permission using the command "chmod u+x script_name.sh"
+5- Run the script using  "./script_name"
+
+#Running scripts without execution permission
+Without execution permission:
+1- Navigate to the project directory using the command "cd /path/to/your_project/"
+2- Run the script using the command "bash scriptname" or "python3 scriptname" depending on the interpreter.
+
